@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RoverX</title>
+
+<style type="text/css">
+link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+   body { background: #00e1ed !important; }
+   
+ body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f27100;
+  position: fixed;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #c1bfbf;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f00000;
+  color: white;
+}
+
+{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("photographer.jpg");
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  height: 200%; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+	.textall {
+		padding-left: 10px;
+		color: #0044ce;
+		font-family: calibri;
+	}
+	
+	#img {
+	float: right;
+	padding-left: 10px;
+	}
+	
+	#list1 {
+		color: black;	
+		font-family: Comic Sans MS;
+	}
+	
+	#title1 {
+		padding-top: 50px;
+	}
+		}
+</style>
+</head>
+
+<body style="background-color:#efefef">
+<div class="topnav">
+  <a class="active" href="C:\Users\mutka\OneDrive\Documents\SparkHacks\index.html">Home</a>
+  <a href="#title1">Preface</a>
+  <a href="#text2">Challenges/Problems</a>
+  <a href="#hard">Hardware Components</a>
+  <a href="C:\Users\mutka\OneDrive\Documents\SparkHacks\futureimp.html">Future Implementations</a>
+  <a href="C:\Users\mutka\OneDrive\Documents\SparkHacks\businessaspects.html">Business Aspects</a>
+  <a href="C:\Users\mutka\OneDrive\Documents\SparkHacks\solution.html">Solution</a>
+  <a href="C:\Users\mutka\OneDrive\Documents\SparkHacks\contact.html">Contact</a>	
+
+</div>
+
+<img src="https://i.imgur.com/gQp3VSW.jpg" style= "width:1263.5px;height:609px"></img>
+
+<div style="padding-left:25px padding-top:25px;">
+</div>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <marquee direction="down"><h1 style = "color:white; font-family: verdana"><center>Rover X</h1></center></marquee>
+  <h1 style = "color:#ff0000; font-family:calibri"><center>SenseIt</h1></center>
+</div>
+<br>
+
+<div class="textall"><h1 id="title1" style= "padding-top:10px;">Preface</h1>
+<img id="img" src="https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg" style= "width:420px;height:280px" float="right"></img>
+<strong><h4 style = "color:black; font-family:comic sans MS">Mars, commonly referred to as “Earth’s Twin”, is the fourth planet in our solar system. Mars and Earth are both terrestrial planets. 
+They both have polar ice caps, and also at one stage of time, had optimal atmospheres and liquid water on their surfaces.
+Common conditions of mars include heavy winds and sandstorms. Mars has about a 1% atmospheric pressure of Earth’s, which means that it is very thin. Since Mars has a thin atmosphere and is a greater distance from the sun, the surface temperature of mars is -63 degrees celsius on average.</h4></strong>
+<strong><h4 style = "color:black; font-family:comic sans MS">Now, along with these harsh conditions, the main reason why we have only a 40% success rate for landing on the red plant is that we are unable to enter its orbit. We have decided to consider the faliure of communication and sensors when mars rovers are unable to enter the orbit.</h4></strong>
+<br></br>
+
+<strong><h1 class="textall"; id="text2"; style = "color:#0044ce; font-family:calibri">Challenges/Problems</h1></strong>
+<ul id="list1">
+<strong><li>Landing Issues</li></strong>
+<img id="img" src="C:\Users\mutka\OneDrive\Pictures\Saved%Pictures\chart.png" style= "width:450px;height:325px" float="right"></img>
+	<ul>
+		<li>Pertains to unsuccessful landing of the rover. Could include weak <br>shock-absorbers, jet propulsion systems, weak metal, not large anough parachute etc.</li>
+	</ul><br>
+<strong><li>Space Debris</li></strong>
+<ul>
+		<li>Any material outside of Earth that is already existing in Space. Could include <br>metal, pieces of a deteriorated rover/satellite, caused by the contact of the two objects etc. </li>
+	</ul><br>
+<strong><li>Accelerating Journey</li></strong>
+<ul>
+		<li>It takes 7 months for a satellite to get to Mars. It would be ideal to decrease this time <br>period to increase the longetivity of the rover.</li>
+	</ul><br>
+<strong><li>Failure to enter Orbit</li></strong>
+<ul>
+		<li>The rover has broken down prior to entering the planet's atmosphere due to <br> sunexpected contact with satellites, disfunctional sensors, etc.</li>
+	</ul><br>
+<strong><li>Software/Hardware Issues</li></strong>
+<ul>
+		<li>The rover may not be able to reach mars due to software issues (e.g. measurement errors). <br> It may also not land safely due to weak shock-absorbers, not strong enough metal <br>or landing on a rough surface.</li>
+	</ul><br>
+<strong><li>Launch Failure</li></strong>
+<ul>
+		<li>Rovers may not be able to leave the LEO (Low Earth Orbit) due to <br>insufficient amount of power used (rocket fuel).</li>
+	</ul><br>
+</ul>
+
+<h1 class="textall" id="hard">Hardware Components</h1>
+<ul style= "color:black; font-family: comic sans ms;">
+<strong><li>Body</li></strong>
+<ul>
+	<li>Called the Warm Electric Box (WEB)</li>
+	<li>Gold insulated walls since temp. can drop to under -96 and gold insulates heat very well</li>
+	<li>Like a car body, the rover body is a strong, outer layer that protects the rover´s computer, electronics, and batteries (which are basically the equivalent of the rover´s brains and heart)</li>
+	<li>It essentially keeps its “vital organs” safe and intact</li>
+</ul>
+<br></br>
+<strong><li>Brains</li></strong>
+<ul>
+	<li>Called the rover electronics module (REM)</li>
+	<li>The communication interface allows the main computer in the command centre to exchange data with that of the rover’s. This is called the bus</li>
+	<li>Better nerves for balance and position. The robots carry a inertial measurement unit that provides 3-axis information on its position</li></ul>
+<br></br>
+<strong><li>Temperature Controls</li></strong>
+<ul>
+	<li>Climate is extremely cold. System can freeze resulting in the robot to die off immediately</li>
+</ul><br></br>
+<strong><li>Neck, Head and Eyes</li></strong>
+<ul>
+	<li>Used for stabilization</li>
+	<li>Visual sensors are located on the head</li>
+</ul>
+<strong><li>Arm</li></strong>
+<ul>
+	<li>Extend its reach</li>
+</ul>
+<strong><li>Wheels and Legs</li></strong>
+<ul>
+	<li>Mobility</li>
+</ul>
+<strong><li>Energy</li></strong>
+<ul>
+	<li>Main source of power is solar. Many things can go wrong with this, as the renewable energy is not concentrated.</li>
+</ul>
+<strong><li>Communications</li></strong>
+<ul>
+	<li>Ability to communicate between command centre and sensors of the robot</li>
+</ul>
+<br></br>
+<img src="https://cdn.thingiverse.com/renders/90/b6/e2/11/19/Curiosity_Rover_Body_2_preview_card.jpg" style="width:400px; height:250px"></img>
+<img src="https://i.ebayimg.com/images/g/aF8AAOSwl9BWH8Q~/s-l640.jpg" style="width:400px; height:250px"></img>
+<img src="https://ae01.alicdn.com/kf/HTB1OjgzIrSYBuNjSspfq6AZCpXaI/10PCS-TENSTAR-ROBOT-blue-LED-W1209-DC-12V-heat-cool-temp-thermostat-temperature-control-switch-temperature.jpg_640x640.jpg" style="width:400px;height:250px"></img>
+<img src="https://marsmobile.jpl.nasa.gov/imgs/mer/rover/neckhead1.jpg" style="width:400px;height:250px"></img>
+<img src="data:image/jpeg;base64,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" style="width:400px;height:250px"></img>
+<img src="https://www.designnews.com/sites/default/files/Design%20News/02-rack-mechanism_TURBOQUAD.jpg" style="width:400px;height:250px"></img>
+<center><img src="https://images.theconversation.com/files/91934/original/image-20150814-2585-qv9dhu.png?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip" style="width:400px;height:250px"></img></center>
+
+</body>
+</html>
